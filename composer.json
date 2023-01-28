@@ -1,0 +1,35 @@
+{
+  "name": "jacotheron/forge-monitor",
+  "description": "Monitor resources on a Laravel Forge managed server",
+  "type": "module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jacotheron",
+      "email": "jaco@xilix.technology"
+    }
+  ],
+  "require": {
+    "php" : ">=8.0",
+    "illuminate/support": "^9.47",
+    "illuminate/console": "^9.47",
+    "illuminate/mail": "^9.47",
+    "illuminate/queue": "^9.47"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jacotheron\\ForgeMonitor\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jacotheron\\ForgeMonitor\\ForgeMonitorServiceProvider"
+      ]
+    }
+  }
+}
