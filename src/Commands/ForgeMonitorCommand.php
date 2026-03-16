@@ -44,7 +44,7 @@ class ForgeMonitorCommand extends Command
                 $process->setTimeout(config('forge-monitor.project_commands_timeout'));
                 $process->run();
                 if($process->isSuccessful()){
-                    $results[] = $process->getOutput().' '.config('forge-monitor.strings.all_projects').'\n\n';
+                    $results[] = $process->getOutput().' '.config('forge-monitor.strings.all_projects')."\n\n";
                 }else{
                     $this->error('Failed to get all project usage');
                 }
