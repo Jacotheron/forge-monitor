@@ -16,7 +16,7 @@ class ForgeNotification extends Mailable implements ShouldQueue
     {
         $subject = str_replace(
             '{date}',
-            \Illuminate\Support\now()->format(config('forge-monitor.notification.date_format')),
+            \Illuminate\Support\now()->format(config('forge-monitor.email.subject_date_format')),
             config('forge-monitor.email.subject')
         );
 
