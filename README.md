@@ -1,7 +1,7 @@
 # A simple package to monitor storage used by sites on a Forge provisioned server. Also monitors database sizes. Sends email with the details after each run.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Jacotheron/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/Jacotheron/forge-monitor)
-[![Total Downloads](https://img.shields.io/packagist/dt/Jacotheron/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/Jacotheron/forge-monitor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jacotheron/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/jacotheron/forge-monitor)
+[![Total Downloads](https://img.shields.io/packagist/dt/jacotheron/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/jacotheron/forge-monitor)
 
 Easily get notifications of the storage used by sites on a Forge provisioned server including database sizes. Sends email with the details after each run.
 
@@ -10,7 +10,7 @@ Easily get notifications of the storage used by sites on a Forge provisioned ser
 You can install the package via composer:
 
 ```bash
-composer require Jacotheron/forge-monitor
+composer require jacotheron/forge-monitor
 ```
 
 You can publish the config file with:
