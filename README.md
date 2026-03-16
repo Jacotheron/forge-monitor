@@ -1,9 +1,7 @@
 # A simple package to monitor storage used by sites on a Forge provisioned server. Also monitors database sizes. Sends email with the details after each run.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/xilix/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/xilix/forge-monitor)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/xilix/forge-monitor/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/xilix/forge-monitor/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/xilix/forge-monitor/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/xilix/forge-monitor/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/xilix/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/xilix/forge-monitor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Jacotheron/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/Jacotheron/forge-monitor)
+[![Total Downloads](https://img.shields.io/packagist/dt/Jacotheron/forge-monitor.svg?style=flat-square)](https://packagist.org/packages/Jacotheron/forge-monitor)
 
 Easily get notifications of the storage used by sites on a Forge provisioned server including database sizes. Sends email with the details after each run.
 
@@ -12,7 +10,7 @@ Easily get notifications of the storage used by sites on a Forge provisioned ser
 You can install the package via composer:
 
 ```bash
-composer require xilix/forge-monitor
+composer require Jacotheron/forge-monitor
 ```
 
 You can publish the config file with:
