@@ -81,7 +81,7 @@ return [
      */
     'strings' => [
         'disk_results' => 'Disk Results:',
-        'all_projects' => '(All Projects)',
+        'all_projects' => 'All Projects',
         'scan_results' => 'Scan Results:',
         'db_results' => 'DB Results:',
         'total' => 'Total',
