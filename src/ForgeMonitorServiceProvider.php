@@ -1,10 +1,10 @@
 <?php
 
-namespace Xilix\ForgeMonitor;
+namespace Jacotheron\ForgeMonitor;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Xilix\ForgeMonitor\Commands\ForgeMonitorCommand;
+use Jacotheron\ForgeMonitor\Commands\ForgeMonitorCommand;
 
 class ForgeMonitorServiceProvider extends PackageServiceProvider
 {

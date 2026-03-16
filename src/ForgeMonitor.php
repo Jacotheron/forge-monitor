@@ -1,5 +1,5 @@
 <?php
 
-namespace Xilix\ForgeMonitor;
+namespace Jacotheron\ForgeMonitor;
 
 class ForgeMonitor {}

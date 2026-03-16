@@ -1,6 +1,6 @@
 <?php
 
-namespace Xilix\ForgeMonitor\Mail;
+namespace Jacotheron\ForgeMonitor\Mail;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Xilix\ForgeMonitor\Commands;
+namespace Jacotheron\ForgeMonitor\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use Symfony\Component\Process\Process;
-use Xilix\ForgeMonitor\Mail\ForgeNotification;
+use Jacotheron\ForgeMonitor\Mail\ForgeNotification;
 
 class ForgeMonitorCommand extends Command
 {

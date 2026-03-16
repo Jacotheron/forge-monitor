@@ -1,12 +1,12 @@
 {
-    "name": "xilix/forge-monitor",
+    "name": "jacotheron/forge-monitor",
     "description": "A simple package to monitor storage used by sites on a Forge provisioned server. Also monitors database sizes. Sends email with the details after each run.",
     "keywords": [
-        "xilix",
+        "jacotheron",
         "laravel",
         "forge-monitor"
     ],
-    "homepage": "https://github.com/xilix/forge-monitor",
+    "homepage": "https://github.com/Jacotheron/forge-monitor",
     "license": "MIT",
     "authors": [
         {
@@ -35,13 +35,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Xilix\\ForgeMonitor\\": "src/",
-            "Xilix\\ForgeMonitor\\Database\\Factories\\": "database/factories/"
+            "Jacotheron\\ForgeMonitor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Xilix\\ForgeMonitor\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Xilix\\ForgeMonitor\\ForgeMonitorServiceProvider"
+                "Jacotheron\\ForgeMonitor\\ForgeMonitorServiceProvider"
             ],
             "aliases": {
-                "ForgeMonitor": "Xilix\\ForgeMonitor\\Facades\\ForgeMonitor"
+                "ForgeMonitor": "Jacotheron\\ForgeMonitor\\Facades\\ForgeMonitor"
             }
         }
     },

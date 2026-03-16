@@ -1,6 +1,6 @@
 <?php
 
-// config for Xilix/ForgeMonitor
+// config for Jacotheron/ForgeMonitor
 return [
 
     /**
